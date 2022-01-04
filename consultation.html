@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Doctor's Room</title>
+        <link rel="stylesheet" href="consult.css">
+    </head>
+    <body>
+        <div class = "nav-bar" id = "nav-bar">
+            <nav>
+                <ul>
+                    <li><a href = "index.html">home</a></li>
+                    <li><a href = "aboutUs.html">About us</a></li>
+                    <li><a href = "consultation.html">consultation room</a></li>
+                    
+                    <li><a href = "news.html">News</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+        <h1>
+            Welcome to the Doctor's Room feel at Home!
+        </h1>
+        <div class="well">
+            <img src="colsultationImg/doctor.jpg" alt="not found"
+            style="width: 283px;background-color: blanchedalmond;position: absolute;
+            left:42%;">
+
+        </div>
+        <h2>What is the problem?. choose by ticking</h2>
+        <form action="consult.php" method="post">
+        <table>
+            <tr>
+            <div class="right">
+            
+            
+                <input type="checkbox" name="head" value="Head">
+                <label value="head">Headache</label> <br>
+
+                <input type="checkbox" name="fever" value="Fever">
+                <label>Fever</label><br>
+
+                <input type="checkbox" name="vomiting" value="Vomiting">
+                <label>Vomiting</label><br>
+
+                <input type="checkbox" name="bodypain" value="Genera body pain">
+                <label>General body Pain</label> <br>
+
+                <input type="checkbox" name="Stomach" value="Stomachache">
+                <label>Stomachache</label><br>
+
+                <input type="checkbox" name="joint" value="Joint pains">
+                <label>Joint pains</label>
+            </div>
+        </tr>
+        <tr>
+        <div class="left" style="color: white;
+        background-color: black;   
+        width: 32%;
+        height: auto;   
+        margin: 2px;
+        position: absolute;
+        left: 67%;
+        line-height: 1%;">
+           
+                <input type="checkbox" name="Rashes" value="Rashes">
+                <label>Rashes</label><br>
+
+                <input type="checkbox" name="apetite" value="Loss of Apetite">
+                <label>Loss of Apetite</label><br>
+            
+                <input type="checkbox" name="tooth" value="Toothache">
+                <label>Toothache</label><br>
+            
+                <input type="checkbox" name="diarr" value="Diarrhea">
+                <label>Diarrhea<label><br>
+            
+                <input type="checkbox" name="wound" value="Wounds">
+                <label>Wounds</label><br>
+            
+                <input type="checkbox" name="sole" value="Sole Throte">
+                <label>Sole Throte</label><br>
+
+            <hr>
+        </div>
+       </tr>
+            <div class="textArea">
+                
+          <h2 style="color:black;   ">
+            write anything you feel that is not above</h2>
+            <textarea rows="10" cols="25" placeholder="write here" name="textArea" ></textarea>
+        </div>
+        <div class="submit">
+            <input type="submit" value="send" name="submit">
+            <input type="reset" value="Clear" name="clear">
+         </div>
+        </table>
+    </form>
+        
+    </body>
+</html>
