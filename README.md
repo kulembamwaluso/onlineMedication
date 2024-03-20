@@ -1,2 +1,2 @@
 # onlineMedication
-prodides online medical services
+provides online medical services
